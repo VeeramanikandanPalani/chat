@@ -1,0 +1,13 @@
+.navbar-brand {
+  color: #f1efef !important;
+  font-size: 15px !important;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.navbar {
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(270, 99%, 24%, 1) 0%,
+    hsla(158, 63%, 50%, 1) 100%
+  );
+}
