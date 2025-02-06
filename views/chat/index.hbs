@@ -1,7 +1,52 @@
 <div class="container-fluid">
   <div class="row vh-100">
-    <div class="col-3 bg-primary">fhdfhfd</div>
-    <div class="col-6 bg-info">fsghfd</div>
-    <div class="col-3 bg-warning">fghdfg</div>
+    <div class="col-3 mt-2" style="background:#fffff">
+      <div class="d-flex justify-content-center border p-1">
+        <h6 class="text-center">Chat History</h6>
+      </div>
+      <ul class="list-group mt-2">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          Cras justo odio
+          <span class="badge badge-primary badge-pill">14</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          Dapibus ac facilisis in
+          <span class="badge badge-primary badge-pill">2</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          Morbi leo risus
+          <span class="badge badge-primary badge-pill">1</span>
+        </li>
+      </ul>
+    </div>
+    <div class="col-9" style="background:#f1e6e6">
+      <div class="MsgBox mt-4">
+        <p class="sender">Hi</p>
+        <p class="receiver">Hello</p>
+      </div>
+      <div class="MsgInput">
+        <div class="form-group" style="position: fixed;bottom: 5px;">
+          <textarea
+            name="msg"
+            id="msg"
+            rows="3"
+            cols="160"
+            class="MessageInput"
+          ></textarea>
+        </div>
+        <button
+          type="button"
+          name="btn-send"
+          id="btn-send"
+          class="btn btn-sm btn-success send-button"
+        >Send</button>
+      </div>
+    </div>
   </div>
 </div>

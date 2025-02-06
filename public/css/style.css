@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
 .navbar-brand {
   color: #f1efef !important;
   font-size: 15px !important;
@@ -10,4 +16,31 @@
     hsla(270, 99%, 24%, 1) 0%,
     hsla(158, 63%, 50%, 1) 100%
   );
+}
+.sender {
+  background: aqua;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: right;
+  font-size: smaller;
+  font-weight: 500;
+}
+.receiver {
+  background: greenyellow;
+  text-align: left;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: smaller;
+  font-weight: 500;
+}
+.send-button {
+  position: absolute;
+  bottom: 82px;
+  right: 44px;
+}
+.MessageInput {
+  border: 1px solid bisque;
+  background: floralwhite;
+  border-radius: 10px;
+  font-size: smaller;
 }
